@@ -844,11 +844,6 @@ button,
 .checkbox-input-wrapper > input[type="checkbox"]:focus + label,
 .checkbox-input-wrapper > input[type="checkbox"]:active + label {
   outline: 2px solid #000000;
-}
-
-.checkbox-input-wrapper > input[type="checkbox"]:focus + label::before,
-.checkbox-input-wrapper > input[type="checkbox"]:active + label::before {
-  outline: 2px solid #000000;
   border-radius: 3px;
 }
 
@@ -2096,6 +2091,10 @@ button,
 @media (max-width: 1279px) {
   .container {
     padding: 0 30px;
+  }
+
+  .page-nav__container {
+    padding: 22px 61px 34px 0;
   }
 
   .page-footer__social {
